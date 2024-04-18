@@ -1012,6 +1012,21 @@ body.dark-theme {
     grid-template-columns: repeat(1, 180px);
     justify-content: center;
   }
+
+  .waze-link-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00CAEB; /* Color verde Waze */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .waze-link-button:hover {
+    background-color: #4CAF50;
+  }
 }
 
 /* For medium devices */
@@ -1029,6 +1044,21 @@ body.dark-theme {
 
   .footer__container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .waze-link-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00CAEB; /* Color verde Waze */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .waze-link-button:hover {
+    background-color: #4CAF50;
   }
 }
 
@@ -1142,6 +1172,21 @@ body.dark-theme {
   .footer__title {
     font-size: var(--h3-font-size);
   }
+
+  .waze-link-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00CAEB; /* Color verde Waze */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .waze-link-button:hover {
+    background-color: #4CAF50;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -1196,6 +1241,21 @@ body.dark-theme {
   .testimonial__container {
     padding-bottom: 4rem;
   }
+
+  .waze-link-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00CAEB; /* Color verde Waze */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .waze-link-button:hover {
+    background-color: #4CAF50;
+  }
 }
 
 /* For large devices */
@@ -1234,6 +1294,21 @@ body.dark-theme {
 
   .scrollup {
     right: 3rem;
+  }
+
+  .waze-link-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00CAEB; /* Color verde Waze */
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .waze-link-button:hover {
+    background-color: #4CAF50;
   }
 }
 
