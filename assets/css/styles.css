@@ -733,7 +733,7 @@ body.dark-theme {
 
 /*=============== NEWSLETTER ===============*/
 .newsletter__bg {
-  background-color: var(--first-color);
+  background-color: #FFFAEE;
   padding: 3rem 1.5rem;
   text-align: center;
   row-gap: 2.5rem;

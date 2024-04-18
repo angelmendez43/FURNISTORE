@@ -149,8 +149,8 @@ themeButton.addEventListener('click', () => {
 })
 
 //funcion para mandar mensaje de whatsapp
-function purchaseOnWhatsApp(phone, productName, productImage) {
-    var message = encodeURIComponent("Hola, estoy interesado en comprar, ¿podemos agendar? " + productName + ". Aquí está la imagen del producto: " + window.location.origin + "/" + productImage);
+function purchaseOnWhatsApp(phone, productName) {
+    var message = encodeURIComponent("Hola, estoy interesado en," + productName +". ¿Podemos agendar una cita para discutir más detalles?" );
     window.open("https://wa.me/" + phone + "?text=" + message, "_blank");
 }
 
