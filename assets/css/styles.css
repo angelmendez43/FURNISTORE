@@ -964,6 +964,21 @@ body.dark-theme {
   right: 0;
 }
 
+.waze-link-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #00CAEB; /* Color verde Waze */
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.waze-link-button:hover {
+  background-color: #4CAF50;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 320px) {
@@ -1221,3 +1236,4 @@ body.dark-theme {
     right: 3rem;
   }
 }
+
